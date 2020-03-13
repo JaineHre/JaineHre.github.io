@@ -1,0 +1,459 @@
+﻿body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #262626;
+}
+
+header .header_menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 1170px;
+}
+
+.banner {
+	background: #009f31;
+	background-size: 100%;
+}
+
+.left_menu {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 200px;
+	margin-right: 10px;
+}
+
+.main_content {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 740px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.right_content {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+        float: right;
+    width: 200px;
+	margin-left: 10px;
+}
+
+.sNet {
+	display: flex;
+	flex-direction: column;
+}
+
+.sNet1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer {
+	display: flex;
+    background: #009f31;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.f_content {
+	padding: 10px;
+	position: relative;
+    text-align: center;
+    justify-content: space-between;
+    height: 50px;
+    
+}
+
+.main_content a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #009f31;
+	margin: 5px 10px;
+}
+
+.main_content a:hover {
+	text-decoration: underline;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+table {
+	width: 400px;
+	background: #feffca;
+	font-size: 25px;
+	border-collapse: collapse;
+}
+
+td, th {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ff914d;
+}
+
+table td:first-child {
+	text-align: left;
+    font-weight: bold;
+	background: #ffde59;
+}
+
+table tr:first-child {
+	background: #ffde59;
+}
+
+.table {
+	margin: 10px 160px 30px;
+}
+
+.img {
+	margin: 10px 110px;
+}
+
+img {
+	margin: 5px 10px;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 15px;
+	font-family: cursive;
+	text-align: center;
+}
+
+.mainCaption {
+	font-size: 25px;
+	margin: 5px 10px;
+	font-family: cursive;
+	text-align: center;
+}
+
+.inscription {
+	text-align: center;
+}
+
+button.subscribing {
+	height: 45px;
+	margin: 5px;
+	outline: none;
+	background-color: #009f31;
+	font-size: 18px;
+	font-family: cursive;
+	color: #ffffff;
+	border-style: none;
+	border-radius: 10px;
+}
+
+.button {
+	width: 170px;
+	height: 50px;
+	margin: 15px;
+	outline: none;
+	background-color: #009f31;
+	font-size: 18px;
+	font-family: cursive;
+	color: #ffffff;
+	border-style: none;
+	border-radius: 10px;
+}
+
+.button:hover,
+button.subscribing:hover {
+	background-color: #008629;
+	cursor: pointer;
+}
+
+.close {
+	width: 30px;
+    height: 30px;
+	margin-left: 570px;
+    margin-bottom: -30px;
+	cursor: pointer;
+}
+
+.close:hover {
+	background-color: #cccccc;
+	border-radius: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	margin: 5px 10px 20px 10px;
+	font-family: cursive;
+	text-align: center;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 10px 30px 20px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: cursive;
+	margin: 30px 5px 0px 5px;
+}
+
+p {
+	margin: 5px 10px;
+}
+
+h5 {
+	font-size: 13px;
+	margin: 5px 0px;
+}
+
+hr {
+	margin: 15px 5px;
+}
+
+.arrowButton {
+	width: 50px;
+}
+
+.arrowButton img {
+	width: 100%;
+	margin-top: 135px;
+}
+
+.arrowButton:hover {
+	cursor: pointer;
+}
+
+.arrowButton img:hover {
+	width: 90%;
+}
+
+#photos {
+	width: 450px;
+}
+
+#photos img {
+	width: 100%;
+}
+
+#gallery {
+	width: 630px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+        padding-bottom: 10px;
+        padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px; 
+	margin: 30px;
+}
+
+.video {
+	width: 660px;
+	margin: 10px 40px;
+}
+
+#background {
+        background-color: rgba(1,1,1,0.75);
+        display: none;
+        z-index: 3;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+}
+
+#window {
+	width: 590px;
+	height: 510px;
+	margin: auto;
+	padding: 25px;
+        background-color: #fffff0;
+	border: 7px solid;
+	border-color: #009f31;
+	border-radius: 20px;
+	display: none;
+	z-index: 5;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+}
+
+.input1 {
+	font-size: 14px;
+	font-family: cursive;
+	width: 250px;
+	height: 30px;
+	margin: 5px 15px 10px 5px;
+	padding: 2px;
+	background-color: #ffffdd;
+	border: 3px solid;
+	border-color: #fffe7e;
+	border-radius: 5px;
+}
+
+.input {
+	font-size: 14px;
+	font-family: cursive;
+	width: 320px;
+	height: 30px;
+	margin: 5px 15px 10px 5px;
+	padding: 2px;
+	background-color: #ffffdd;
+	border: 3px solid;
+	border-color: #fffe7e;
+	border-radius: 5px;
+}
+
+.radioBlock {
+	font-size: 14px;
+	font-family: cursive;
+	margin: 5px;
+}
+
+header nav a {
+	text-decoration: none;
+	font-size: 23px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 10px 15px;
+	border-top: 3px solid rgba(255, 96, 51, 0);
+	border-bottom: 3px solid rgba(255, 96, 51, 0);
+}	
+
+header nav a:hover {
+	border-top: 3px solid #fff200;
+	border-bottom: 3px solid #fff200;
+}
+
+nav {
+    width: 485px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cabin Sketch', cursive;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1024px){
+	.wrapper {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.banner {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	.main_content {
+		margin: 20px -10px 0;
+		width: 100%;
+		align-items: center;
+	}
+
+	.main_content img {
+		width: 100%;
+	}
+
+	.content {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.right_content {
+		width: 100%;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.left_menu {
+		width: 100%;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-around;
+	}
+
+    .sNet {
+    	width: 150px;
+    	margin: 10px;
+    }
+
+    .sNet1 {
+    	width: 230px;
+    	margin: 15px;
+    }
+
+    .sNet img {
+    	width: 100%;
+    }
+
+    .sNet1 img {
+    	width: 100%;
+    }
+
+	h4 {
+		padding: 10px;
+		margin: 0px;
+	}
+	
+	h1 {
+		margin: -5px;
+	}
+	
+	h3 {
+		margin: -5px;
+	}
+
+	hr {
+		width: 100%;
+	}
+	
+	.header_menu {
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	nav {
+		width: 100%;
+		flex-direction: column;
+	}
+	
+	#gallery {
+		width: 530px;
+		margin: 30px 0px;
+	}
+	
+	#photos{
+		width: 350px;
+	}
+
+        .mesr img{
+               width: 40px;
+        }
+}
+
+
